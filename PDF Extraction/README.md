@@ -14,4 +14,4 @@ Python programs to extract text from pdfs.
 - `argparse`
 
 ### Approach
-The programs use `pdf2image` to convert the pdf to an image. Then `tesseract` is used to perform OCR to extract the content. The language is set to `hin` (which also follows the Devanagari script). In case the URL is not a downloadable pdf, then BeautifulSoup is used to identify all links in the page which contain ".pdf". 
+The programs use `pdf2image` to convert the pdf to an image. Then `tesseract` is used to perform OCR to extract the content. The language is set to `hin` (which also follows the Devanagari script). In case the URL is not a downloadable pdf, then `BeautifulSoup` is used to identify all links in the page which contain ".pdf". 
